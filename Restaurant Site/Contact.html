@@ -1,0 +1,68 @@
+<!DOCTYPE html> 
+<!--
+    Name: Thomas Educate 
+    Date Created: 01/04/2019 
+    Most recent revision: 01/04/2019
+-->
+<html lang="en"> 
+    <head> 
+        <title>Contact Us</title>		
+    </head> 
+    
+    <body>
+		<main>
+        <header>
+            <h1>Tommy's Eatery</h1>
+        </header>
+		<hr />
+		
+        <nav>
+			<table>
+				<tr>
+					<td><p><a href="index.html">Home</a></p></td>
+					<td><p><a href="Menu.html">Menu</a></p></td>
+					<td><p><a href="contact.html">Contact Me</a></p></td>
+				</tr>
+			</table>
+        </nav>
+
+		<hr />
+		<section>
+			<form action="submit.html" method="post">
+				<label for="fullName">Name:</label>
+				<input type="text" id="fullName" name="fullName"><br />
+				<label for="email">Email:</label>
+				<input type="text" id="email" name="email"><br />
+				<label for="phone">Phone:</label>
+				<input type="text" id="phone" name="phone"><br />
+				<label for="inquiry" id="inquiry" name="inquiry">
+				<label for="reasons">Reason for Inquiry:</label>
+				<select name="reasons">
+					<option value="catering" Selected>Catering</option>
+					<option value="party">Private Party</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+				</select><br />
+				<label for="addInformation">Additional Information:</label>
+				<textarea name="addInformation"></textarea><br />
+				<label for="visted">Have you been to the restaurant?</label>
+				<input type="radio" name="visited" value="No" checked />No
+				<input type="radio" name="visited" value="Yes" />Yes<br/>
+				<label for="contactPref">Best days to contact you:</label>
+				<input type="checkbox" name="contactPref" value="M" />M
+				<input type="checkbox" name="contactPref" value="T" />T
+				<input type="checkbox" name="contactPref" value="W" />W
+				<input type="checkbox" name="contactPref" value="Th" />Th
+				<input type="checkbox" name="contactPref" value="F" />F<br />
+				<input type="submit"/><br />
+			</form>
+		</section>
+		
+        <footer>
+			<hr />
+				<p>123 Main Street, Sudbury, MA, 01776</p>
+				<p>800-KL5-5555</p>
+        </footer>
+		</main>
+    </body> 
+</html>
