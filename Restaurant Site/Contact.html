@@ -6,7 +6,16 @@
 -->
 <html lang="en"> 
     <head> 
-        <title>Contact Us</title>		
+        <title>Contact Us</title>	
+		<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+		<style>
+		section {
+			background-color: #e8f1f2;
+		}
+		label {
+			font-weight: bold;
+		}
+		</style>
     </head> 
     
     <body>
@@ -21,7 +30,7 @@
 				<tr>
 					<td><p><a href="index.html">Home</a></p></td>
 					<td><p><a href="Menu.html">Menu</a></p></td>
-					<td><p><a href="contact.html">Contact Me</a></p></td>
+					<td><p><a href="contact.html">Contact Us</a></p></td>
 				</tr>
 			</table>
         </nav>
@@ -29,6 +38,7 @@
 		<hr />
 		<section>
 			<form action="submit.html" method="post">
+			<div class="required">
 				<label for="fullName">Name:</label>
 				<input type="text" id="fullName" name="fullName"><br />
 				<label for="email">Email:</label>
@@ -45,6 +55,7 @@
 				</select><br />
 				<label for="addInformation">Additional Information:</label>
 				<textarea name="addInformation"></textarea><br />
+			</div>
 				<label for="visted">Have you been to the restaurant?</label>
 				<input type="radio" name="visited" value="No" checked />No
 				<input type="radio" name="visited" value="Yes" />Yes<br/>
