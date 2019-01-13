@@ -7,7 +7,13 @@ header, footer {
 	text-align: center;
 	padding: 30px 10px 20px 10px;
 }
-
+nav .btn {
+	background-color: #668f80;
+	color: #e8f1f2;
+}
+nav .btn:hover {
+	font-weight: bold;
+}
 a:link {
 	color: green;
 }
