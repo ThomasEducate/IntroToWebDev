@@ -2,7 +2,7 @@
 <!--
     Name: Thomas Educate 
     Date Created: 01/04/2019 
-    Most recent revision: 01/04/2019
+    Most recent revision: 01/13/2019
 -->
 <html lang="en"> 
     <head>
@@ -16,17 +16,25 @@
 		section {
 			background-color: #e8f1f2;
 		}
-		
+		.jumbotron {
+			background-color: #668f80;
+			color: #e8f1f2;
+			height: 100px;
+			text-align: center;
+			padding: 30px 10px 130px 10px;
+		}
 		</style>
     </head> 
     
     <body>
+	<noscript>This page is best viewed with JavaScript enabled. Please enable and re-load the page.</noscript>
 		<main>
-        <header>
+        <header class="jumbotron">
             <h1>Tommy's Eatery</h1>
+			<h2 class="font-italic">New Location Opening Soon!</h2>
         </header>
+	
 		<hr />
-		
         <nav>
 					<a class="btn badge-pill" href="index.html">Home</a>
 					<a class="btn badge-pill" href="Menu.html">Menu</a>
@@ -34,13 +42,26 @@
 		</nav>
 
 		<hr />
+			<div id=carouselNews" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<strong>We're opening a new location!</strong>
+					</div>
+					<div class="carousel-item">
+						<strong>We're rolling out our seasonal menu, with special options for this season.</strong>
+					</div>
+					<div class="carousel-item">
+						<strong>The Drink of the Month is SG Special Brew</strong>
+					</div>
+				</div>
+		<hr />
 		<section>
 		<article id="description">
-		<img src="images/profile.jpg" alt="Front of Restaurant" style="float:left;" />
+		<img src="images/profile.jpg" class="img-fluid" alt="Front of Restaurant" style="float:left;" />
 		<div style="clear:both"></div>
 			
 			<blockquote>
-			Restaurant Description<br>
+			A history of Tommy's Eatery<br>
 				Welcome to Tommy's Eatery! Home of simple plates and great eats! 
 				Our restaurant was founded back in 1984 and has been serving the local community as an institution ever since.
 				We feature a small variety of items available during the lunch hours Monday thru Friday.
